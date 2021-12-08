@@ -13,7 +13,7 @@
     <nav class="navbar navbar-expand-sm sticky-top navbar-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Welcome</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar"><span class="navbar-toggler-icon"></span></button>
+            <button class="navbar-toggler btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <div class="container-fluid">
                     <ul class="navbar-nav justify-content-center">
@@ -63,7 +63,7 @@
                         <h6>JavaScript</h6>
                         <h6>HTML</h6>
                     </div>
-                    <a href="#">See Project</a>
+                    <a class="btn btn-success" href="#">See Project</a>
                 </div>
             </div>
             <div>
@@ -75,7 +75,7 @@
                         <h6>JavaScript</h6>
                         <h6>HTML</h6>
                     </div>
-                    <a href="#">See Project</a>
+                    <a class="btn btn-success" href="#">See Project</a>
                 </div>
             </div>
             <div>
@@ -87,7 +87,7 @@
                         <h6>JavaScript</h6>
                         <h6>HTML</h6>
                     </div>
-                    <a href="#">See Project</a>
+                    <a class="btn btn-success" href="#">See Project</a>
                 </div>
             </div>
             <div>
@@ -99,7 +99,7 @@
                         <h6>JavaScript</h6>
                         <h6>HTML</h6>
                     </div>
-                    <a href="#">See Project</a>
+                    <a class="btn btn-success" href="#">See Project</a>
                 </div>
             </div>
             <div>
@@ -111,7 +111,7 @@
                         <h6>JavaScript</h6>
                         <h6>HTML</h6>
                     </div>
-                    <a href="#">See Project</a>
+                    <a class="btn btn-success" href="#">See Project</a>
                 </div>
             </div>
             <div>
@@ -123,7 +123,7 @@
                         <h6>JavaScript</h6>
                         <h6>HTML</h6>
                     </div>
-                    <a href="#">See Project</a>
+                    <a class="btn btn-success" href="#">See Project</a>
                 </div>
             </div>
         </div>
@@ -169,19 +169,23 @@
         </ul>
     </section>
     <!-- Form section -->
-    <section id="form-group">
-        <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
-        <form action="https://formspree.io/f/mbjwrpbr" method="POST">
-            <label for="name">
+    <section id="form-group" class="form-group row">
+        <div class="col">
+            <h2 class="col">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
+        </div>
+        <form class="col" action="https://formspree.io/f/mbjwrpbr" method="POST">
+            <div class="row">
+                <label for="name" class="w-100">
             <input type="text" id="name" class="form-control" placeholder="Full name" maxlength="30" name="fullname" required>
         </label>
-            <label for="email">    
+                <label for="email" class="w-100">    
         <input type="email" id="email" placeholder="Email address" class="form-control" name="email" required>
         </label>
-            <label for="message">   
+                <label for="message" class="w-100">   
         <textarea name="msg" id="message" maxlength="500" placeholder="Enter text here" class="form-control" required></textarea>
             </label>
-            <button class="btn btn-secondary" type="submit">Get in touch</button>
+                <button class="btn btn-success " type="submit">Get in touch</button>
+            </div>
         </form>
     </section>
     <!-- Footer -->
