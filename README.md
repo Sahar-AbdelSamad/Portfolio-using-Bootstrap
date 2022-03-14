@@ -22,6 +22,11 @@ This website is a setup and mobile version skeleton of my portfolio.
 - Twitter: [@abdelsamadsahar](https://twitter.com/AbdelSamadSahar)
 - LinkedIn: [sahar-abdel-samad](https://www.linkedin.com/in/sahar-abdel-samad/)
 
+👤 **Mauro Vasconcelos**
+
+- GitHub: [@vanillainanutshell](https://github.com/vanillainanutshell)
+- LinkedIn: [Mauro Vasconcelos](https://www.linkedin.com/in/mauro-vasconcelos-a3671a223/)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
