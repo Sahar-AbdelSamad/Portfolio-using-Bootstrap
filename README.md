@@ -8,6 +8,15 @@
 
 This website is a setup and mobile version skeleton of my portfolio.
 
+## Setup
+
+### Clone this repository
+
+```bash
+$ git clone git@github.com:Sahar-AbdelSamad/Portfolio-using-Bootstrap.git
+$ cd Portfolio-using-Bootstrap
+```
+### Run the live server or open index.html with your browser
 ## Built With
 
 - HTML
